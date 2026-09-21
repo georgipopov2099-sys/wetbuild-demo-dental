@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Dent Clinic — зъболекарски кабинет в София. Прегледи, почистване, импланти и ортодонтия в спокойна и приятелска обстановка. Демонстрационен проект от WetBuild."
+    >
+
+    <title>Dent Clinic — Зъболекарски кабинет</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="container nav">
+
+        <a href="#hero" class="logo">Dent <span>Clinic</span></a>
+
+        <nav class="desktop-nav" aria-label="Основна навигация">
+            <a href="#services">Услуги</a>
+            <a href="#why-us">Защо ние</a>
+            <a href="#team">Екип</a>
+            <a href="#reviews">Отзиви</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+
+        <a href="#contact" class="button primary nav-cta">Запази преглед</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Отвори меню" aria-expanded="false" aria-controls="mobileNav">
+            <span></span><span></span><span></span>
+        </button>
+
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Мобилна навигация">
+        <a href="#services">Услуги</a>
+        <a href="#why-us">Защо ние</a>
+        <a href="#team">Екип</a>
+        <a href="#reviews">Отзиви</a>
+        <a href="#contact">Контакти</a>
+        <a href="#contact" class="button primary">Запази преглед</a>
+    </nav>
+</header>
+
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="container hero-grid">
+
+        <div class="hero-content reveal">
+            <p class="hero-eyebrow">
+                <span class="badge-dot"></span>
+                Зъболекарски кабинет в София
+            </p>
+
+            <h1>
+                Здрава усмивка,
+                <span>без притеснения.</span>
+            </h1>
+
+            <p class="hero-text">
+                Грижим се за зъбите ви спокойно и внимателно — без чакане,
+                без стрес и без болка. Прегледът започва с разговор, не с бормашина.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#contact" class="button primary">
+                    Запази преглед
+                    <span>→</span>
+                </a>
+                <a href="#services" class="button secondary">Виж услугите</a>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="photo-placeholder">
+                <p>Снимка предстои</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- УСЛУГИ И ЦЕНИ -->
+<section class="section" id="services">
+    <div class="container">
+
+        <span class="eyebrow reveal">01 — Услуги</span>
+        <h2 class="reveal">Услуги и цени</h2>
+        <p class="section-lead reveal">
+            Ясни цени, без скрити такси. Всяка процедура започва с преглед
+            и обяснение какво точно ви предстои.
+        </p>
+
+        <div class="pricing-grid">
+
+            <article class="price-card reveal">
+                <h3>Преглед</h3>
+                <p class="price-desc">Начален преглед и консултация за състоянието на зъбите ви.</p>
+                <div class="price-tag">
+                    <span class="price-eur">20€</span>
+                    <span class="price-bgn">39 лв.</span>
+                </div>
+                <a href="#contact" class="button outline btn-sm">Запази час</a>
+            </article>
+
+            <article class="price-card reveal">
+                <h3>Профилактично почистване</h3>
+                <p class="price-desc">Премахване на зъбен камък и полиране за здрави венци.</p>
+                <div class="price-tag">
+                    <span class="price-eur">45€</span>
+                    <span class="price-bgn">88 лв.</span>
+                </div>
+                <a href="#contact" class="button outline btn-sm">Запази час</a>
+            </article>
+
+            <article class="price-card reveal">
+                <h3>Пломба</h3>
+                <p class="price-desc">Естетично възстановяване на зъб с трайни материали.</p>
+                <div class="price-tag">
+                    <span class="price-eur">60€</span>
+                    <span class="price-bgn">117 лв.</span>
+                </div>
+                <a href="#contact" class="button outline btn-sm">Запази час</a>
+            </article>
+
+            <article class="price-card featured reveal">
+                <span class="price-card-tag">Популярна</span>
+                <h3>Избелване на зъби</h3>
+                <p class="price-desc">Професионално избелване за по-бяла усмивка само за един сеанс.</p>
+                <div class="price-tag">
+                    <span class="price-eur">120€</span>
+                    <span class="price-bgn">235 лв.</span>
+                </div>
+                <a href="#contact" class="button primary btn-sm">Запази час</a>
+            </article>
+
+            <article class="price-card reveal">
+                <h3>Поставяне на импланти</h3>
+                <p class="price-desc">Трайно решение за липсващ зъб, което изглежда и се усеща естествено.</p>
+                <div class="price-tag">
+                    <span class="price-eur">от 450€</span>
+                    <span class="price-bgn">от 880 лв.</span>
+                </div>
+                <a href="#contact" class="button outline btn-sm">Запази час</a>
+            </article>
+
+            <article class="price-card reveal">
+                <h3>Ортодонтска консултация</h3>
+                <p class="price-desc">Оценка на захапката и план за подравняване на зъбите.</p>
+                <div class="price-tag">
+                    <span class="price-eur">25€</span>
+                    <span class="price-bgn">49 лв.</span>
+                </div>
+                <a href="#contact" class="button outline btn-sm">Запази час</a>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ЗАЩО НИЕ -->
+<section class="section alt" id="why-us">
+    <div class="container">
+
+        <span class="eyebrow reveal">02 — Защо ние</span>
+        <h2 class="reveal">Защо пациентите ни се чувстват спокойно</h2>
+
+        <div class="trust-grid">
+
+            <article class="trust-card reveal">
+                <span class="trust-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 21s-7-4.5-9.5-9C.5 8 2 4 6 4c2 0 3.5 1 4 2 .5-1 2-2 4-2 4 0 5.5 4 3.5 8-2.5 4.5-9.5 9-9.5 9z"/>
+                    </svg>
+                </span>
+                <h3>15+ години опит</h3>
+                <p>Дългогодишна практика в грижата за усмивката на нашите пациенти.</p>
+            </article>
+
+            <article class="trust-card reveal">
+                <span class="trust-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="9"/>
+                        <path d="M12 7v5l3 3"/>
+                    </svg>
+                </span>
+                <h3>Съвременна технология</h3>
+                <p>Дигитално оборудване за прецизна, бърза и удобна диагностика.</p>
+            </article>
+
+            <article class="trust-card reveal">
+                <span class="trust-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                </span>
+                <h3>Стерилизация по стандарт</h3>
+                <p>Стриктни протоколи за хигиена и дезинфекция при всяка визита.</p>
+            </article>
+
+            <article class="trust-card reveal">
+                <span class="trust-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20.8 8.6c0 5-8.8 10-8.8 10s-8.8-5-8.8-10a4.6 4.6 0 0 1 8.8-1.9A4.6 4.6 0 0 1 20.8 8.6z"/>
+                    </svg>
+                </span>
+                <h3>Безболезнени процедури</h3>
+                <p>Съвременна анестезия и внимателен подход — без стрес и болка.</p>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ЕКИП -->
+<section class="section" id="team">
+    <div class="container">
+
+        <span class="eyebrow reveal">03 — Екип</span>
+        <h2 class="reveal">Хората зад усмивката ви</h2>
+        <p class="section-lead reveal">
+            Лекари с дългогодишен опит и внимателен, спокоен подход към всеки пациент.
+        </p>
+
+        <div class="team-grid">
+
+            <article class="team-card reveal">
+                <div class="team-photo"><span>Снимка предстои</span></div>
+                <h3>Д-р Мария Иванова</h3>
+                <span class="team-role">Обща дентална медицина</span>
+            </article>
+
+            <article class="team-card reveal">
+                <div class="team-photo"><span>Снимка предстои</span></div>
+                <h3>Д-р Николай Тодоров</h3>
+                <span class="team-role">Ортодонтия</span>
+            </article>
+
+            <article class="team-card reveal">
+                <div class="team-photo"><span>Снимка предстои</span></div>
+                <h3>Д-р Елена Христова</h3>
+                <span class="team-role">Имплантология</span>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ОТЗИВИ -->
+<section class="section alt" id="reviews">
+    <div class="container">
+
+        <span class="eyebrow reveal">04 — Отзиви</span>
+        <h2 class="reveal">Какво казват пациентите</h2>
+
+        <div class="reviews-grid">
+
+            <article class="review-card placeholder reveal">
+                <span class="placeholder-badge">PLACEHOLDER</span>
+                <div class="stars">★★★★★</div>
+                <p>Тук ще стои реален отзив от клиент.</p>
+            </article>
+
+            <article class="review-card placeholder reveal">
+                <span class="placeholder-badge">PLACEHOLDER</span>
+                <div class="stars">★★★★★</div>
+                <p>Тук ще стои реален отзив от клиент.</p>
+            </article>
+
+            <article class="review-card placeholder reveal">
+                <span class="placeholder-badge">PLACEHOLDER</span>
+                <div class="stars">★★★★★</div>
+                <p>Тук ще стои реален отзив от клиент.</p>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- КОНТАКТИ -->
+<section class="section" id="contact">
+    <div class="container contact-grid">
+
+        <div class="contact-info reveal">
+            <span class="eyebrow">05 — Контакти</span>
+            <h2>Запази час при нас</h2>
+
+            <div class="contact-item">
+                <span class="contact-label">Адрес</span>
+                <p>бул. „Витоша“ 89, София 1000</p>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-label">Телефон</span>
+                <p><a href="tel:+359888345678">0888 345 678</a></p>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-label">Работно време</span>
+                <p>
+                    Понеделник – Петък: 09:00 – 19:00<br>
+                    Събота: 10:00 – 14:00<br>
+                    Неделя: почивен ден
+                </p>
+            </div>
+
+            <a href="viber://chat?number=%2B359888345678" class="button viber">
+                Пиши ни във Viber
+            </a>
+        </div>
+
+        <div class="booking-panel reveal">
+            <h3>Запази преглед онлайн</h3>
+
+            <!-- Calendly embed placeholder: replace inner content with the
+                 real Calendly inline embed <div> + script snippet. -->
+            <div class="calendly-embed">
+                <span class="calendar-icon" aria-hidden="true">
+                    <span class="calendar-icon-top"></span>
+                </span>
+                <p>Тук ще бъде вграден онлайн календар за резервации (Calendly)</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+
+<footer class="footer">
+    <div class="container footer-grid">
+
+        <a href="#hero" class="logo">Dent <span>Clinic</span></a>
+
+        <nav class="footer-nav" aria-label="Долна навигация">
+            <a href="#services">Услуги</a>
+            <a href="#why-us">Защо ние</a>
+            <a href="#team">Екип</a>
+            <a href="#reviews">Отзиви</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+
+        <p class="footer-note">
+            &copy; <span id="year"></span> Dent Clinic — Демонстрационен проект от WetBuild.
+        </p>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
