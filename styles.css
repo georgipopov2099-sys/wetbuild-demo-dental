@@ -308,16 +308,6 @@ h1, h2, h3 {
     background: var(--bg-alt);
 }
 
-.eyebrow {
-    display: block;
-    color: var(--accent-dim);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 0.78rem;
-    margin-bottom: 12px;
-}
-
 .section h2 {
     font-size: clamp(1.8rem, 5vw, 2.4rem);
     margin-bottom: 14px;
